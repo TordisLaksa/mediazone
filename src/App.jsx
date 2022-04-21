@@ -1,5 +1,4 @@
 import './App.scss';
-import { BusTimes } from "./components/bus/bus";
 
 function App() {
   return (
