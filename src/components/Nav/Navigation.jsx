@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { BusTimes } from "../../components/bus/bus";
+import { BusTimes } from "../bus/bus";
 import Home from "../../Pages/Home/Home";
+import './Navigation.scss'
 
 // Array med/til navigator
 export const navArrList = [
@@ -22,14 +23,14 @@ export const navArrList = [
 
 // Nav element 
 // laver menuen med navArrList
-export const Nav = () => {
+export const Nav = props => {
     return(
         <nav>
             <ul>
                 {navArrList.map((item, key) => {
                     return(
                         item.display? 
-                        <li key={key}>
+                        <li key={key} className="navList">
                             {/*NavLink er components til navigation fra react router dom  */}
                             <NavLink to={item.path}> {item.title} </NavLink>
                         </li>
@@ -38,5 +39,19 @@ export const Nav = () => {
                 })}
             </ul>
         </nav>
+    )
+}
+
+export const NavModal = props => {
+    if(!props.show){
+        return null
+    }
+    return(
+        <div className="navModal">
+            <div className="modalBody">
+                <Nav />
+                <button onClick={props.onClose} className="modalButton">Close</button>
+            </div>
+        </div>
     )
 }

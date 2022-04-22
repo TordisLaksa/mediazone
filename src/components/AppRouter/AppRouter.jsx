@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { navArrList } from "../../Assets/Data/Navigation"
+import { navArrList } from "../Nav/Navigation"
 
 const AppRouter = () => {
     return(

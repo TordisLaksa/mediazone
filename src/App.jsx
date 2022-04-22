@@ -1,9 +1,12 @@
 import { BrowserRouter as Router } from 'react-router-dom';  //OBS skal hedde BrowserRouter as Router 
 import './App.scss';
-import { Nav } from './Assets/Data/Navigation';
+import { Nav, NavModal } from './components/Nav/Navigation';
 import AppRouter from './components/AppRouter/AppRouter';
+import { useState } from 'react';
 
 function App() {
+  const [ show, setShow ] = useState(false);
+
   return (
     <div className="App">
       {/* Router kommer fra  React router dom */}
@@ -11,7 +14,11 @@ function App() {
         {/* AppRouter styrer alt indhold på siden */}
         <AppRouter /> 
         {/* Nav styrer navigationen */}{/* Nav står under AppRouter for at få menuen i bunden af appen */}
-        <Nav />
+       
+
+        <button onClick={() => setShow(true)}>Show Modal</button>
+        <NavModal onClose={() => setShow(false)} show={show}/>
+
       </Router>
     </div>
   );
