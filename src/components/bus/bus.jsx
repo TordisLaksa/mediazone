@@ -25,7 +25,7 @@ export const BusTimes = () => {
     return(
         <section className="busPlanWrapper">
             <h2>Bus Plan</h2>
-            {busPlan.map((plan, index) => {
+            {busPlan && busPlan.map((plan, index) => {
                 return(
                     <section key={index} className="busPlan">
                         <p>{plan.line}</p>
