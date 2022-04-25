@@ -3,6 +3,7 @@ import './App.scss';
 import { Nav, NavModal } from './components/Nav/Navigation';
 import AppRouter from './components/AppRouter/AppRouter';
 import { useState } from 'react';
+import NavButton from './components/navbutton/NavButton';
 
 function App() {
   const [ show, setShow ] = useState(false);
@@ -20,6 +21,7 @@ function App() {
         <NavModal onClose={() => setShow(false)} show={show}/>
 
       </Router>
+      <NavButton/>
     </div>
   );
 }
