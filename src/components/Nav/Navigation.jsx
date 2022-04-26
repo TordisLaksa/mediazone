@@ -2,12 +2,13 @@ import { NavLink } from "react-router-dom";
 import { BusTimes } from "../Bus/Bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
-import { render } from "@testing-library/react";
 import { Food } from "../Food/Food";
 import Enterainment from "../Entertainment/Entertainment";
 import StudentCouncil from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
 import SocialActivities from "../SocialActivities/SocialActivities";
+
+
 
 // Array med/til navigator
 export const navArrList = [

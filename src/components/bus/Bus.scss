@@ -1,0 +1,44 @@
+body{
+    background-color: #3A3A3C;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.busPlanWrapper{
+background-color: #484242;
+margin-inline: 10%;
+margin-block: 50%;
+padding-block: 5%;
+border-radius: 10px;
+
+.busPlan{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    background-color: #273C92;
+    padding: 2vw;
+    margin-bottom: 10%;
+    margin-inline: 7%;
+    border-radius: 10px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    li{
+        font-size: 4.3vw;
+        display: flex;
+        justify-content: center;
+        padding: 2vw;
+        &:nth-child(1){
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        &:last-child{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1vw;
+        }
+    }
+}
+}

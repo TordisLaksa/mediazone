@@ -21,7 +21,7 @@ function App() {
         <NavModal onClose={() => setShow(false)} show={show}/>
 
       </Router>
-      <NavButton/>
+      {/* <NavButton/> */}
     </div>
   );
 }
