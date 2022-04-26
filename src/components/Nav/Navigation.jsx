@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import { BusTimes } from "../Bus/Bus";
+import { BusTimes } from "../Bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
 import { render } from "@testing-library/react";
-import { Food } from "../Food/Food";
+import { Food } from "../Food/food";
 import Enterainment from "../Entertainment/Entertainment";
 import StudentCouncil from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
