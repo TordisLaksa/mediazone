@@ -1,0 +1,43 @@
+.foodPlanWrapper {
+    h2 {
+        display: inline-block;
+        width: 80%;
+        border-bottom: 1px solid;
+        text-align: center;
+        color: #C7C7CC;
+        font-size: 36px;
+        font-weight: normal;
+        font-style: italic;
+        margin: 0 10% 15vw 10%;
+    }
+    ul {
+        display: block;
+        &:nth-child(even) {
+            h3 {
+                text-align: right;
+            }
+            li {
+                margin: 0 0 0 auto;
+            }
+        }
+        h3 {
+            color: #FFFFFF;
+            font-family: Lato;
+            font-weight: medium;
+            font-size: 24px;
+            margin-bottom: 5px;
+            padding: 0 10px 0 10px;
+        }
+        li {
+            list-style-type: none;
+            width: 60vw;
+            font-size: 24px;
+            font-family: Lato;
+            font-weight: medium;
+            color: #FFFFFF;
+            background-color: #56565A;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    }
+}
