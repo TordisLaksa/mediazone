@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
+import './food.scss'
 
 export const Food = () => {
     const [ foodPlan , setFoodPlan ] = useState([]);
@@ -18,11 +19,12 @@ export const Food = () => {
 
     return( 
         <section className="foodPlanWrapper">
+            <h2>   UGENS RETTER   </h2>
             {foodPlan && foodPlan.map((food, index) => {
                 return(
                     <ul key={index}>
-                        <h2>{food.DayName}</h2>
-                        <p>{food.Dish}</p>
+                        <h3>{food.DayName.toUpperCase()}</h3>
+                        <li>{food.Dish.replace('- kr. 28,00', '')}</li>
                     </ul>
                 )
             })}

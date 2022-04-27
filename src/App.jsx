@@ -15,10 +15,11 @@ function App() {
       <Logo />
       {/* Router kommer fra  React router dom */}
       <Router>
+        <Logo />
         {/* AppRouter styrer alt indhold på siden */}
         <AppRouter /> 
         {/* Nav styrer navigationen */}{/* Nav står under AppRouter for at få menuen i bunden af appen */}
-        
+
         <NavButton Url={HomeLogo} clickEvent={setShow}/>
         <NavModal onClose={() => setShow(false)} show={show}/>
 
