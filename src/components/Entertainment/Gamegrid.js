@@ -2,7 +2,7 @@ import GameLink from "./GameLink";
 
 const Gamegrid = ({games}) => {
     return (
-        <section className="game-grid">
+        <section className="Game-Grid">
             {
                 games.map(game=>{
                 return <GameLink 
