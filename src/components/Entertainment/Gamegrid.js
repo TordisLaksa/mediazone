@@ -8,6 +8,7 @@ const Gamegrid = ({games}) => {
                 return <GameLink 
                     url={game.url}
                     gameName={game.gameName}
+                    id={game.id}
                 />
         })
             }

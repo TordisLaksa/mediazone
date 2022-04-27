@@ -7,14 +7,17 @@ import { useState } from 'react';
 const Enterainment = () => {
     const [games, setGames] = useState([
         {
+            id: 1,
+            url: PlaceHolder,
+            gameName: "Test"
+        },
+        {   
+            id: 2,
             url: PlaceHolder,
             gameName: "Test"
         },
         {
-            url: PlaceHolder,
-            gameName: "Test"
-        },
-        {
+            id:3,
             url: PlaceHolder,
             gameName: "Test"
         },
