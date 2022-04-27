@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className="App">
-      <Logo />
       {/* Router kommer fra  React router dom */}
       <Router>
         <Logo />
