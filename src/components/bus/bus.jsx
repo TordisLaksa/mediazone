@@ -9,7 +9,7 @@ export const BusTimes = () => {
     // Arrowfunction som henter info'en fra API'en
     useEffect(() => {
         const getData = async () => {
-            const busApi = 'https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=8519734&format=json'
+            const busApi = 'https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=851973402&rttime&format=json&useBus=1'
             const result = await axios.get(busApi);
             setBusPlan(result.data.MultiDepartureBoard.Departure.slice(0, 4))
         }

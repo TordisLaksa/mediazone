@@ -1,0 +1,53 @@
+.socialHUB{
+    hr{
+        border: 1px solid #DE2627;
+        width: 80%;
+    }
+    h2{
+        text-align: center;
+        font-size: 9vw;
+        font-style:italic;
+        margin-bottom: 0;
+    }
+    h3{
+        text-align: center;
+        font-size: 6vw;
+        margin-top: 1%;
+    }
+    // .arrowDown{
+    //     width: 5%;  
+    //     filter: brightness(0) invert(1);
+    //     position: absolute;
+
+    // }
+    .socialList{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-left: 15%;
+        color: white;
+        p{
+            font-size: 5vw;
+        }
+    }
+    .signInBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 4%;
+        a{
+            width: 50%;
+            border-radius: 30px;
+            background-color: #273C92;
+            padding: 5%;
+            text-align: center;
+            button{
+                border: none;
+                color: white;
+                font-size: 28px;
+                font-style: italic;
+                background-color: #273C92;   
+            }
+        }
+    }
+
+}
