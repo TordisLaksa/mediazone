@@ -1,13 +1,17 @@
 import { NavLink } from "react-router-dom";
-import { BusTimes } from "../Bus/Bus";
+import { BusTimes } from "../Bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
-import { render } from "@testing-library/react";
-import { Food } from "../Food/Food";
+import { Food } from "../Food/food";
 import Enterainment from "../Entertainment/Entertainment";
-import StudentCouncil from "../StudentCouncil/StudentCouncil";
+import { StudentCouncil } from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
-import SocialActivities from "../SocialActivities/SocialActivities";
+import Map from "../Guides/Map"
+import Rules from "../Guides/Rules";
+import SocialHUB from "../SocialActivities/SocialHUB";
+import EventsDetails from "../SocialActivities/EventsDetails";
+
+
 
 // Array med/til navigator
 export const navArrList = [
@@ -55,10 +59,31 @@ export const navArrList = [
     },
     // <SocialActivities /> er custom element 
     {
-        title: 'Social Aktiviteter',
-        path: "/socialActivities",
-        element: <SocialActivities />,
+        title: 'SocialHUB',
+        path: "/socialHUB",
+        element: <SocialHUB />,
         display: true
+    },
+    // <Map /> er custom element 
+    {
+        title: 'Map',
+        path: "/map",
+        element: <Map />,
+        display: false
+    },
+    // <Rules /> er custom element 
+    {
+        title: 'Rules',
+        path: "/rules",
+        element: <Rules />,
+        display: false
+    },
+    // <EventsDetails /> er custom element 
+    {
+        title: 'EventsDetails',
+        path: "/eventsDetails",
+        element: <EventsDetails />,
+        display: false
     },
     
 ]
