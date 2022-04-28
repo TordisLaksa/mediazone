@@ -1,0 +1,25 @@
+.studentCouncil{
+    text-align: left;
+    margin-inline: 10%;
+    margin-block: 20%;
+    padding-block: 5%;
+    border-radius: 10px;
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        border-bottom: 1px solid;
+    }
+
+    .name{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .email{
+        font-style: italic;
+        margin-top:0;
+    }
+}
