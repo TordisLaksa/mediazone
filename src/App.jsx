@@ -6,6 +6,7 @@ import Logo from './components/Logo/Logo'
 import AppRouter from './components/AppRouter/AppRouter';
 import { useState } from 'react';
 import HomeLogo from './Svgs/Home.svg'
+import EventsDetails from './components/SocialActivities/EventsDetails';
 
 function App() {
   const [ show, setShow ] = useState(false);
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       {/* Router kommer fra  React router dom */}
       <Router>
+        <EventsDetails />
         <Logo />
         {/* AppRouter styrer alt indhold på siden */}
         <AppRouter /> 
