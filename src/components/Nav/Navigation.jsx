@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { BusTimes } from "../Bus/Bus";
+import { BusTimes } from "../Bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
 import { Food } from "../Food/food";
