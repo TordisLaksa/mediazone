@@ -4,7 +4,7 @@ import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
 import { Food } from "../Food/food";
 import Enterainment from "../Entertainment/Entertainment";
-import StudentCouncil from "../StudentCouncil/StudentCouncil";
+import { StudentCouncil } from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
 import Map from "../Guides/Map"
 import Rules from "../Guides/Rules";
