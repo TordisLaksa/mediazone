@@ -1,4 +1,4 @@
-const cacheName = 'Cache_v1';
+const cacheName = 'Cache_v2';
 
 let urlsToCache = [
   './index.html',
