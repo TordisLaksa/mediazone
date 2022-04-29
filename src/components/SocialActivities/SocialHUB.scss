@@ -1,4 +1,5 @@
 .socialHUB{
+    margin-bottom: 15vh;
     hr{
         border: 1px solid #DE2627;
         width: 80%;
@@ -14,12 +15,6 @@
         font-size: 6vw;
         margin-top: 1%;
     }
-    // .arrowDown{
-    //     width: 5%;  
-    //     filter: brightness(0) invert(1);
-    //     position: absolute;
-
-    // }
     .socialList{
         display: grid;
         grid-template-columns: 2fr 1fr;

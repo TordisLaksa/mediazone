@@ -19,10 +19,11 @@ export const StudentCouncil = () => {
             {/* //WEBUDVIKLER */}
             <article>
                 <h2>Webudvikler</h2>
+                <hr></hr>
                 {webStudentArr && webStudentArr.map((item, key) => {
                     return (
                         <ol key={key}>
-                            <li>{item.name}</li>
+                            <li className='name'>{item.name}</li>
                             <li>{item.email}</li>
                         </ol>
                     )
@@ -31,10 +32,11 @@ export const StudentCouncil = () => {
             {/* //MEDIEGRAFIKER */}
             <article >
                 <h2>Mediegrafiker</h2>
+                <hr></hr>
                 {medieStudentArr && medieStudentArr.map((item, key) => {
                     return (
                         <ol key={key}>
-                            <li>{item.name}</li>
+                            <li className='name'>{item.name}</li>
                             <li>{item.email}</li>
                         </ol>
                     )
@@ -45,10 +47,11 @@ export const StudentCouncil = () => {
             {/* //GRAFISK TEKNIKER */}
             <article >
                 <h2>Grafisk Tekniker</h2>
+                <hr></hr>
                 {grafiStudentArr && grafiStudentArr.map((item, key) => {
                     return (
                         <ol key={key}>
-                            <li>{item.name}</li>
+                            <li className='name'>{item.name}</li>
                             <li>{item.email}</li>
                         </ol>
                     )

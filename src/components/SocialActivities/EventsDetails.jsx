@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import './EventDetails.scss'
+import BackSvg from "../../Svgs/x-solid.svg"
 
 
 const EventsDetails = () => {
@@ -20,7 +21,10 @@ const EventsDetails = () => {
         }, [setApiData])
     
         return(
-            <section>
+            <section className="eventDetailsWrapper">
+                <Link to='/socialHUB'>
+                    <img className="backSvg" src={BackSvg} alt="back-svg" />
+                </Link>
                 
             {apiData && apiData.map((item, index) => {
                 item.startdate = item.startdate;

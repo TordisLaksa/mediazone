@@ -1,8 +1,8 @@
-import { NavLink } from "react-router-dom";
-import { BusTimes } from "../bus/bus";
+import { Link, NavLink } from "react-router-dom";
+import { BusTimes } from "../Bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
-import { Food } from "../food/food";
+import { Food } from "../Food/food";
 import Enterainment from "../Entertainment/Entertainment";
 import { StudentCouncil } from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
@@ -10,6 +10,7 @@ import Map from "../Guides/Map"
 import Rules from "../Guides/Rules";
 import { SocialHUB } from "../SocialActivities/SocialHUB";
 import EventsDetails from "../SocialActivities/EventsDetails";
+import BackSvg from "../../Svgs/x-solid.svg"
 
 
 
@@ -92,7 +93,7 @@ export const navArrList = [
 
 // Nav element 
 // laver menuen med navArrList
-export const Nav = props => {
+export const Nav = () => {
     return (
         <nav>
             <ul>
@@ -118,6 +119,7 @@ export const NavModal = props => {
     return(
         <div className="navModal" >
             <div className="modalBody" onClick={props.onClose}>
+                <img className="backSvg" src={BackSvg} alt="back-svg" />
                 <Nav />
             </div>
         </div>
