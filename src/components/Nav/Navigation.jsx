@@ -1,8 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
-import { BusTimes } from "../Bus/bus";
+import { NavLink } from "react-router-dom";
+import { BusTimes } from "../bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
-import { Food } from "../Food/food";
+import { Food } from "../food/food";
 import Enterainment from "../Entertainment/Entertainment";
 import { StudentCouncil } from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";

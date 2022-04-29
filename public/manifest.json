@@ -1,25 +1,64 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Mediazone",
+  "short_name": "Mediazone",
+  "description": "Mediazone er et infomation & communications app, lavet af og for Techollege",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#C7C7CC",
+  "theme_color": "#C7C7CC",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/PwaIcons/mediazone_scale_72px.png",
+      "type": "image/png",
+      "sizes": "72x72"
     },
     {
-      "src": "logo192.png",
+      "src": "/PwaIcons/mediazone_scale_96px.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_120px.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_128px.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_144px.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_152px.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_180px.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_192px.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/PwaIcons/mediazone_scale_384px.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "384x384"
+    },
+    {
+      "src": "/PwaIcons/mediazone_scale_512px.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
+
 }
