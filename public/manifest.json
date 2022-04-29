@@ -9,52 +9,52 @@
   "theme_color": "#C7C7CC",
   "icons": [
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_72x72.png",
+      "src": "/PwaIcons/mediazone_scale_72px.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_96x96.png",
+      "src": "/PwaIcons/mediazone_scale_96px.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_120x120.png",
+      "src": "/PwaIcons/mediazone_scale_120px.png",
       "type": "image/png",
       "sizes": "120x120"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_128x128.png",
+      "src": "/PwaIcons/mediazone_scale_128px.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_144x144.png",
+      "src": "/PwaIcons/mediazone_scale_144px.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_152x152.png",
+      "src": "/PwaIcons/mediazone_scale_152px.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_180x180.png",
+      "src": "/PwaIcons/mediazone_scale_180px.png",
       "type": "image/png",
       "sizes": "180x180"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_192x192.png",
+      "src": "/PwaIcons/mediazone_scale_192px.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_384x384.png",
+      "src": "/PwaIcons/mediazone_scale_384px.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "/assets/img/decoration/icons/appIcons/AppIcon_512x512.png",
+      "src": "/PwaIcons/mediazone_scale_512px.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
