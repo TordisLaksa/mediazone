@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
-import { BusTimes } from "../Bus/bus";
+import { BusTimes } from "../bus/bus";
 import Home from "../../Pages/Home/Home";
 import './Navigation.scss'
-import { Food } from "../Food/food";
+import { Food } from "../food/food";
 import Enterainment from "../Entertainment/Entertainment";
 import { StudentCouncil } from "../StudentCouncil/StudentCouncil";
 import Guides from "../Guides/Guides";
 import Map from "../Guides/Map"
 import Rules from "../Guides/Rules";
-import SocialHUB from "../SocialActivities/SocialHUB";
+import { SocialHUB } from "../SocialActivities/SocialHUB";
 import EventsDetails from "../SocialActivities/EventsDetails";
 
 
@@ -81,7 +81,7 @@ export const navArrList = [
     // <EventsDetails /> er custom element 
     {
         title: 'EventsDetails',
-        path: "/eventsDetails",
+        path: "/eventsDetails/:id",
         element: <EventsDetails />,
         display: false
     },

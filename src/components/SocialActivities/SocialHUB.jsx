@@ -1,10 +1,9 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import EventsDetails from './EventsDetails';
-// import arrowDown from '../../Svgs/sort-down-solid.svg'
 import './SocialHUB.scss'
-const SocialHUB = () => {
+export const SocialHUB = () => {
+   
     const [getEvents, setGetEvents] = useState([]);
     useEffect(() => {
         const getData = async () => {
@@ -20,8 +19,9 @@ const SocialHUB = () => {
             <h2>SocialHUB</h2>
             <hr></hr>
             <h3>KOMMENDE EVENTS</h3>
-            {/* <img className='arrowDown' src={arrowDown} alt="arrowDown" /> */}
-            {getEvents && getEvents.map((item, index) => {
+
+            {getEvents && getEvents.map((item, index) => { 
+
                 item.startdate = item.startdate;
                 item.Time = new Date(item.startdate).toLocaleDateString(
                     "da-DK",
@@ -31,11 +31,8 @@ const SocialHUB = () => {
                     }
                 );
                 return (
-                    // <button key={index} onClick={() => EventsDetails()}>
-                    //     <p className='title'>{item.title}</p>
-                    //      <p>{item.Time}</p>
-                    // </button>
-                    <Link to='/eventsDetails' className='socialList' key={index} >
+
+                    <Link to={`/eventsDetails/${item.id}`} className='socialList' key={index} >
                         <p className='title'>{item.title}</p>
                         <p>{item.Time}</p>
                     </Link>
@@ -48,7 +45,5 @@ const SocialHUB = () => {
         </section>
     )
 }
-export default SocialHUB;
-
 
 

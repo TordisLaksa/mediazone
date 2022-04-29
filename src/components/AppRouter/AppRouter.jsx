@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { navArrList } from "../Nav/Navigation"
+import { navArrList } from "../nav/Navigation"
 
 const AppRouter = () => {
     return(
@@ -9,8 +9,8 @@ const AppRouter = () => {
                 return(
                     //Route kommer fra  React router dom
                     <Route key={key} path={item.path} element={item.element}></Route>
-                )
-            })}
+                    )
+                })}
 
         </Routes>
     )
