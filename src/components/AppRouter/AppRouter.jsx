@@ -9,8 +9,8 @@ const AppRouter = () => {
                 return(
                     //Route kommer fra  React router dom
                     <Route key={key} path={item.path} element={item.element}></Route>
-                )
-            })}
+                    )
+                })}
 
         </Routes>
     )

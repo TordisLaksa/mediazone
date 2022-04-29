@@ -25,14 +25,13 @@ border-radius: 10px;
         margin-bottom: 0;
     }
     li{
-        font-size: 4.3vw;
+        font-size: 4.2vw;
         display: flex;
         justify-content: center;
         padding: 2vw;
         &:nth-child(1){
             display: flex;
             justify-content: flex-start;
-
         }
         &:last-child{
             display: flex;

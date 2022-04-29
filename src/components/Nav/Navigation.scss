@@ -1,13 +1,9 @@
-body{
+body {
     background-color: #3a3a3c;
     width: 100vw;
 
 }
-
-
-
-
-.navModal{
+.navModal {
     position: fixed;
     left: 0;
     top: 0;
@@ -17,24 +13,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    .modalBody{
-        nav{
-            ul{
+    .modalBody {
+        .backSvg {
+            width: 5%;
+            filter: brightness(0) invert(1);
+            padding-left: 5%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            ul {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 padding: 0;
-
-                .navList{
+                .navList {
                     display: block;
-                    background-color: rgb(39,60,146);
+                    background-color: rgb(39, 60, 146);
                     text-align: center;
                     margin: 3vw;
                     width: 55vw;
                     height: 12vw;
                     border-radius: 5px;
                     line-height: 12vw;
-                    a{
+                    a {
                         color: white;
                         font-size: 5vw;
                     }
@@ -43,7 +45,8 @@ body{
         }
     }
 }
-footer{
+
+footer {
     height: 13vh;
     background-color: #3a3a3c;
     position: fixed;
@@ -52,26 +55,28 @@ footer{
     border-top: 2px solid #707070;
     bottom: 0;
     width: 100%;
- 
-    #MenuButton{
+
+    #MenuButton {
         border: none;
-        background-color: rgb(206,206,207);
+        background-color: rgb(206, 206, 207);
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
         margin-top: 4%;
-        #ButtonColor{
+
+        #ButtonColor {
             width: 17vw;
             height: 17vw;
-            background-color: rgb(90,90,90);
+            background-color: rgb(90, 90, 90);
             border-radius: 50%;
             margin: auto;
-            img{
+
+            img {
                 width: 10vw;
                 padding-top: 3vw;
                 filter: brightness(0) invert(1);
             }
-    
+
         }
     }
 }

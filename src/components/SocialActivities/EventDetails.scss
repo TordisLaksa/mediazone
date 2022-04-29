@@ -1,0 +1,47 @@
+.eventDetailsWrapper{
+    margin-bottom: 15vh;
+    .backSvg{
+        width: 5%;
+        filter: brightness(0) invert(1);
+        padding-left: 5%;
+    }
+    article{
+        padding-inline: 5vw;
+        h2{
+            text-align: center;
+            font-size: 6vw;
+        }
+        hr{
+            border: 1px solid #de2627;
+            width: 95%;
+        }
+        h3{
+            font-size: 5vw;
+        }
+        p{
+            font-size: 4vw;
+            line-height: 5.5vw;
+            padding-bottom: 2vw;
+        }
+        .signInBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 4%;
+        a{
+            width: 50%;
+            border-radius: 30px;
+            background-color: #273C92;
+            padding: 5%;
+            text-align: center;
+            button{
+                border: none;
+                color: white;
+                font-size: 28px;
+                font-style: italic;
+                background-color: #273C92;   
+            }
+        }
+    }
+    }
+}

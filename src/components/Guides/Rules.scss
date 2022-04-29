@@ -1,0 +1,58 @@
+.rulesWrapper{
+
+    .backSvg{
+        width: 5%;
+        filter: brightness(0) invert(1);
+        padding-left: 5%;
+    }
+}
+#sectionText{
+    padding-inline: 5vw;
+    header{
+        h1{
+            text-align: center;
+            color: #707070;
+
+        }
+        hr{
+            color: #707070;
+            width: 90%;
+        }
+    }
+    article{
+        hr{
+            color: #707070;
+            width: 90%;
+        }
+        h2{
+            color: #707070;
+            font-size: 6vw;
+            font-weight: normal;
+            text-align: center
+        }
+        h3{
+            color: #707070;
+            font-size: 5.5vw;
+            font-weight: normal;
+
+        }
+        p{
+            font-size: 4vw;
+            line-height: 5.5vw;
+            padding-bottom: 2vw;
+        }
+        &:nth-child(2){
+            margin-bottom: 5vh;
+        }
+        &:last-child{
+            margin-bottom: 15vh;
+        }
+        ul{
+           li{
+            padding-bottom: 3vw;
+            font-size: 4vw;
+            line-height: 5.5vw;
+           } 
+        }
+    }
+}
